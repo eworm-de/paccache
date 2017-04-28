@@ -1,2 +1,0 @@
-# Make sure local service pacredir is running!
-Server = http://localhost:7077/

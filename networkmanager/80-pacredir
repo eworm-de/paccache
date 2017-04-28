@@ -1,7 +1,0 @@
-#!/bin/sh
-
-if [ "${2}" == "up" ]; then
-	if pgrep -x pacredir >/dev/null; then
-		kill -HUP $(pgrep -x pacredir)
-	fi
-fi
